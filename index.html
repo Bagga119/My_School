@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagga's College</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Bagga's College</div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#faculty">Faculty</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" onclick="toggleMenu()">Menu</button>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Welcome to Bagga's College</h1>
+        <p>Your Gateway to Excellence in Education</p>
+        <button onclick="learnMore()">Learn More</button>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>Bagga's College is committed to providing world-class education to students. We offer state-of-the-art facilities and a supportive learning environment.</p>
+    </section>
+
+    <section id="courses" class="courses">
+        <h2>Our Courses</h2>
+        <div class="course-card">
+            <h3>Computer Science</h3>
+            <p>Learn programming, AI, and data science.</p>
+        </div>
+        <div class="course-card">
+            <h3>Business Administration</h3>
+            <p>Master management and leadership skills.</p>
+        </div>
+        <div class="course-card">
+            <h3>Fine Arts</h3>
+            <p>Explore your creativity and artistic talents.</p>
+        </div>
+    </section>
+
+    <section id="faculty" class="faculty">
+        <h2>Our Faculty</h2>
+        <p>Meet our highly experienced and dedicated faculty members who are passionate about teaching.</p>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Bagga's College. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
